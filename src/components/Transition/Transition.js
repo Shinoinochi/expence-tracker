@@ -1,9 +1,10 @@
 import React from 'react';
 import { GlobalContext } from '../../context/GlobalState';
-function Transaction({ transaction }) {
+function Transaction({ transaction, resetSort }) {
   const { deleteTransaction } = React.useContext(GlobalContext);
   function removeTransaction() {
     deleteTransaction(transaction.id);
+    resetSort();
   }
   return (
     <li className={transaction.cost >= 0? `tracker__history-item tracker__history-item_income`: `tracker__history-item tracker__history-item_expence`}>

@@ -120,8 +120,18 @@ code {
 .tracker__category {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
 }
+
+.tracker__sort {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .tracker__icon {
   width: 40px;
   padding: 4px;
@@ -200,6 +210,7 @@ code {
   border-right: 6px solid #3fe60d;
 }
 .tracker__button {
+  min-width: 100px;
   border-radius: 10px;
   font-size: 18px;
   border: none;

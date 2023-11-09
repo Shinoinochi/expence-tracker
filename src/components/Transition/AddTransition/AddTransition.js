@@ -8,13 +8,13 @@ import medIcon from '../../../images/emergency-health-healthcare-hospital-kit-me
 import booksIcon from '../../../images/books-book-svgrepo-com.svg'
 import { initialState } from '../../../context/GlobalState';
 
-function AddTransaction() {
+function AddTransaction({sorted, setSorted}) {
     const { transactions } = React.useContext(GlobalContext);
     const { addTransaction } = React.useContext(GlobalContext);
     const date = new Date();
     const [name, setName] = React.useState('');
     const [cost, setCost] = React.useState(0);
-    const [ category, setCategory ] = React.useState("http://localhost:3000/static/media/shopping-bag-svgrepo-com.df1a1665d7612b0b86d418a72f0287eb.svg");
+    const [ category, setCategory ] = React.useState(document.location.origin + shop);
     function onSubmitTransiction(evt) {
         evt.preventDefault();
         const day = date.getDate();
@@ -31,10 +31,10 @@ function AddTransaction() {
         addTransaction(newTransaction);
         setName('');
         setCost(0);
+        setSorted(null);
     }
 
     React.useEffect(() => {
-        console.log(initialState.transactions);
         localStorage.setItem('transactions', JSON.stringify(transactions));
     }, [transactions]);
 
