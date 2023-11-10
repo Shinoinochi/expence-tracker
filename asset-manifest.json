@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/expence-tracker/static/css/main.a6ff40cd.css",
-    "main.js": "/expence-tracker/static/js/main.123ad16e.js",
+    "main.css": "/expence-tracker/static/css/main.3228d174.css",
+    "main.js": "/expence-tracker/static/js/main.9bb16737.js",
     "static/js/787.90daa71d.chunk.js": "/expence-tracker/static/js/787.90daa71d.chunk.js",
     "static/media/Inter-Medium.woff?v=3.19": "/expence-tracker/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff?v=3.19": "/expence-tracker/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -9,19 +9,19 @@
     "static/media/Inter-Medium.woff2?v=3.19": "/expence-tracker/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
     "static/media/Inter-Black.woff2?v=3.19": "/expence-tracker/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
     "static/media/Inter-Regular.woff2?v=3.19": "/expence-tracker/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/play-svgrepo-com.svg": "/expence-tracker/static/media/play-svgrepo-com.b56fed93be2829faa55823c0e133ce43.svg",
+    "static/media/play-svgrepo-com.svg": "/expence-tracker/static/media/play-svgrepo-com.60ee5f07449163fb5822f2227326897f.svg",
     "static/media/bus-svgrepo-com.svg": "/expence-tracker/static/media/bus-svgrepo-com.ce9b9f9d222bf9db40590ba5626516ac.svg",
     "static/media/books-book-svgrepo-com.svg": "/expence-tracker/static/media/books-book-svgrepo-com.6667f8fe223c70653189358a5351738e.svg",
     "static/media/home-house-svgrepo-com.svg": "/expence-tracker/static/media/home-house-svgrepo-com.db7b93f30967c21424db9d722d20eb9c.svg",
-    "static/media/emergency-health-healthcare-hospital-kit-medical-svgrepo-com.svg": "/expence-tracker/static/media/emergency-health-healthcare-hospital-kit-medical-svgrepo-com.77c35d61322e19d3b6b0d77afccaf59d.svg",
+    "static/media/emergency-health-healthcare-hospital-kit-medical-svgrepo-com.svg": "/expence-tracker/static/media/emergency-health-healthcare-hospital-kit-medical-svgrepo-com.bede7e2772fd63bfbd4c58dd4aed62b9.svg",
     "index.html": "/expence-tracker/index.html",
     "static/media/shopping-bag-svgrepo-com.svg": "/expence-tracker/static/media/shopping-bag-svgrepo-com.df1a1665d7612b0b86d418a72f0287eb.svg",
-    "main.a6ff40cd.css.map": "/expence-tracker/static/css/main.a6ff40cd.css.map",
-    "main.123ad16e.js.map": "/expence-tracker/static/js/main.123ad16e.js.map",
+    "main.3228d174.css.map": "/expence-tracker/static/css/main.3228d174.css.map",
+    "main.9bb16737.js.map": "/expence-tracker/static/js/main.9bb16737.js.map",
     "787.90daa71d.chunk.js.map": "/expence-tracker/static/js/787.90daa71d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6ff40cd.css",
-    "static/js/main.123ad16e.js"
+    "static/css/main.3228d174.css",
+    "static/js/main.9bb16737.js"
   ]
 }
